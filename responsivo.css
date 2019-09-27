@@ -1,0 +1,79 @@
+#body{
+	background-color: red;
+}
+
+#main{
+	
+}
+.box-list{
+
+}
+
+.container-list{
+
+}
+
+.list{
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	color: red;
+	background-color: black;
+	list-style: none;]
+	color: red;
+	line-height: 3;
+	display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.movies{
+
+}
+
+.box-fase{
+
+}
+
+.fase{
+	display: flex;
+    justify-content: center;
+
+}
+
+.box1{
+
+}
+
+.container{
+	line-height: 1.5;
+
+}
+
+.title{
+	font-size: 150%;
+    display: flex;
+    margin: 0px 0px 0px 60px;
+}
+
+.text{
+	width: 55vw;
+
+}
+.img{
+	display: flex;
+justify-content: space-around;
+}
+
+.imagem{
+	height: 50vh;
+	width: 40vw;
+
+}
+
+.box{
+	margin: 0px 50px 0px 0px;
+
+}
+
