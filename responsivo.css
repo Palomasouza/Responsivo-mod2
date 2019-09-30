@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 #body{
 	background-color: red;
 }
@@ -15,21 +20,49 @@
 
 .list{
 	height: 8vh;
-	display: flex;
-	justify-content: center;
 	color: red;
 	background-color: black;
-	list-style: none;]
 	color: red;
-	line-height: 3;
 	display: flex;
+	align-items: center;
     justify-content: space-evenly;
+    list-style: none;
 
 
 }
 
-.movies{
+@media(max-width: 768px){
+	.list{
+		justify-content: space-around;
 
+	}
+}
+
+@media(max-width: 425px){
+	.list{
+		height: 12vh;
+	}
+}
+
+.movies{
+	display: flex;
+
+}
+@media(max-width: 425px){
+	.movies{
+		width: 100%;
+	}
+}
+
+.link{
+	display: flex;
+	text-decoration: none;
+	color: red;
+}
+
+.link:hover{
+    color: white;
+    font-size: 20px;
 }
 
 .box-fase{
@@ -39,41 +72,57 @@
 .fase{
 	display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 
 }
 
 .box1{
 
+
+}
+.box-text{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .container{
-	line-height: 1.5;
+    line-height: 1.5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
 
 }
 
 .title{
 	font-size: 150%;
     display: flex;
-    margin: 0px 0px 0px 60px;
+    margin: 0px;
 }
 
 .text{
-	width: 55vw;
+	
 
 }
 .img{
+	width: 100%;
 	display: flex;
 justify-content: space-around;
 }
 
 .imagem{
 	height: 50vh;
-	width: 40vw;
+	width: 40%;
 
 }
 
 .box{
-	margin: 0px 50px 0px 0px;
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
 }
 
